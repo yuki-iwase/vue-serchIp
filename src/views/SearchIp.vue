@@ -1,7 +1,7 @@
 <template>
   <div id="search-ip">
     <div>
-      <p v-text="ip">ここにIPが表示されます</p>
+      <p v-text="ip">ここにIPが表示されます!</p>
       <div>
         <input @click="getIp" type="button" value="IPを取得">
       </div>
